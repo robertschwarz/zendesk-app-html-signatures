@@ -1,19 +1,3 @@
-# Screenshots
-## App Overview
-![signature_preview](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/c5145399-7521-4c1e-9a8a-72d0699677a0)
-## Create new Signature
-![create_signature](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/ca8b0ae2-220b-4cb5-a1d9-6d28f5f18295)
-## Manage Signatures
-![edit_signatures](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/571043d5-4e32-4e23-b592-99f4b3dfa6a2)
-## Edit Signature
-![edit_signature](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/005bd73b-f261-489b-92d9-00f618df350a)
-## Ticket Example
-![ticket_example](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/f80a4b28-000a-444f-911e-772b13c382ac)
-
-
-
-
-
 # Credits
 This app recycles the code & logic of Zignatures, with some improvements
 https://github.com/zendesk/zignatures
@@ -76,3 +60,15 @@ Agent -> Lookup Relationship field so that an Admin can manage agent signatures 
 4. Set an "App Name" annd upload select the app package
 5. Click "Upload" and wait for it to finish
 6. Arrange the app at the top or bottom of your app list
+
+# Screenshots
+## App Overview
+![signature_preview](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/c5145399-7521-4c1e-9a8a-72d0699677a0)
+## Create new Signature
+![create_signature](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/ca8b0ae2-220b-4cb5-a1d9-6d28f5f18295)
+## Manage Signatures
+![edit_signatures](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/571043d5-4e32-4e23-b592-99f4b3dfa6a2)
+## Edit Signature
+![edit_signature](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/005bd73b-f261-489b-92d9-00f618df350a)
+## Ticket Example
+![ticket_example](https://github.com/robertschwarz/zendesk-app-html-signatures/assets/51233710/f80a4b28-000a-444f-911e-772b13c382ac)
