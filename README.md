@@ -5,6 +5,8 @@ https://github.com/zendesk/zignatures
 Built with Oleg Gulevskyy's incredible Vite Boilerplate
 https://github.com/OlegGulevskyy/zendesk-vite-boilerplate
 
+**APP LOGO**: I took the Zignatures App Logo -> https://github.com/zendesk/zignatures
+
 # What is this?
 A Zendesk Support App that uses Zendesk's New Custom Objects to let agents create custom HTML Based Signatures.
 The HTML Signature's HTML Content is injected at the `ticket.save` event.
@@ -26,25 +28,25 @@ This app lives in the Zendesk Ticket Sidebar and the New Ticket Sidebar.
 1. Open Custom Objects in the Admin Center https://`YOUR_DOMAIN`.zendesk.com/admin/objects-rules/custom-objects/objects
 2. Click `Create object`
 3. Create a new Object with the following parameters:
-  1. Name: "Agent Siganture"
-  2. Plural: "Agent Signatures"
-  3. Object Key: "agent_signature"
-  4. Description: "Custom Object to be used with "Signatures App""
+  * Name: "Agent Siganture"
+  * Plural: "Agent Signatures"
+  * Object Key: "agent_signature"
+  * Description: "Custom Object to be used with "Signatures App""
 
 ## Step 3: Set up the required fields
 1. Open the Agent Signature object
 2. Create the field: "HTML Signature"
-  1. Type: `Multi-line`
-  2. Name: `HTML Signature`
-  3. Key: `html_signature`
+  * Type: `Multi-line`
+  * Name: `HTML Signature`
+  * Key: `html_signature`
 3. Create the field: "Active"
-  1. Type: `Checkbox`
-  2. Name: `Active`
-  3. Key. `Active`
+  * Type: `Checkbox`
+  * Name: `Active`
+  * Key. `Active`
 4. Create the field "Agent"
-  1. Type: `Lookup Relationship Field`
-  2. Name: `Agent`
-  3. Key: `agent`
+  * Type: `Lookup Relationship Field`
+  * Name: `Agent`
+  * Key: `agent`
 
 ### Field descriptions
 HTML Signature -> Textfield that holds plain HTML Content
