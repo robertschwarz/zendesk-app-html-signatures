@@ -1,0 +1,10 @@
+.uk-tooltip {
+  /* From https://css.glass */
+  background: rgba(77, 77, 77, 0.81);
+  border-radius: 4px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(12.2px);
+  max-width: 250px;
+}

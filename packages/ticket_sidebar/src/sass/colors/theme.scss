@@ -1,0 +1,63 @@
+@import "catpuccin-palette.scss";
+
+$text-color: $--ctp-mocha-surface0;
+$border-accent: $--ctp-mocha-yellow;
+
+$theme: (
+  "primary": $--ctp-mocha-sapphire,
+  "secondary": $--ctp-mocha-blue,
+  "accent": $--ctp-mocha-yellow,
+  "success": $--ctp-mocha-green,
+  "error": $--ctp-mocha-maroon,
+  "text": $--ctp-mocha-surface0,
+  "white": $--ctp-latte-base,
+  "inactive": $--ctp-mocha-overlay0,
+);
+
+/**
+ Global Font Color
+*/
+body {
+  color: $text-color;
+}
+/**
+  Backgrounds
+*/
+@each $colorName, $colorHex in $theme {
+  .bg--#{$colorName} {
+    background-color: $colorHex;
+
+    @for $i from 1 through 8 {
+      &.bg-lighten-#{$i} {
+        background-color: lighten($colorHex, calc(5 * $i))
+      }
+    }
+
+    @for $i from 1 through 8 {
+      &.bg-darken-#{$i} {
+        background-color: darken($colorHex, calc(5 * $i))
+      }
+    }
+  }
+
+  .border--#{$colorName} {
+    border: 1px solid;
+    border-color: $colorHex;
+  }
+
+  .text--#{$colorName} {
+    color: $colorHex;
+
+    @for $i from 1 through 5 {
+      &.text-lighten-#{$i} {
+        color: lighten($colorHex, calc(5 * $i))
+      }
+    }
+
+    @for $i from 1 through 5 {
+      &.text-darken-#{$i} {
+        color: darken($colorHex, calc(5 * $i))
+      }
+    }
+  }
+}

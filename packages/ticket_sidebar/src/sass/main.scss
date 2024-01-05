@@ -1,0 +1,17 @@
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+@import "uikit/src/scss/uikit-theme.scss";
+
+@import "./colors/theme";
+
+@import "./components/toggleCheckbox";
+@import "./components/htmlSignaturePreview";
+@import "./components/chip";
+
+@import "./fonts/sizes";
+
+@import "./uiKit/main";
+
+body {
+  font-size: 12px;
+}

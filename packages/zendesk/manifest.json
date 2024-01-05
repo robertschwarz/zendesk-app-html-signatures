@@ -1,0 +1,22 @@
+{
+  "name": "HTML Signatures App",
+  "author": {
+    "name": "Robert Schwarz",
+    "email": "hello@robertschwarz.io",
+    "url": "https://github.com/robertschwarz/zd-app-html-signatures"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "new_ticket_sidebar": {
+        "url": "assets/ticket_sidebar/index.html"
+      },
+      "ticket_sidebar": {
+        "url": "assets/ticket_sidebar/index.html"
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}

@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "zendesk-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate workspace for Zendesk apps by Oleg Gulevskyy",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "open": "open https://d3v-rsc.zendesk.com/agent/tickets/1?zcli_apps=true",
+    "build": "node scripts/build.mjs prod ticket_sidebar",
+    "package": "zcli apps:package dist",
+    "zcli": "node scripts/build.mjs local ticket_sidebar && zcli apps:server dist",
+    "dev": "node scripts/run.mjs ticket_sidebar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "minimist": "^1.2.6"
+  }
+}

@@ -1,0 +1,53 @@
+.modal {
+  &--trigger {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+}
+
+.uk-modal-header {
+  border-bottom: none;
+}
+
+.uk-modal {
+  background: rgb(208 208 208 / 40%);
+}
+
+.uk-modal-dialog,
+.uk-modal-header {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.66);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(9.4px);
+}
+
+.uk-modal-dialog {
+  width: 100%;
+}
+
+.uk-modal-body {
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-color: red orange;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: map-get($theme, "secondary");
+    border-radius: 5px;
+  }
+}
