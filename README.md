@@ -1,5 +1,5 @@
 # Credits
-This app recycles the code & logic of Zignatures, with some improvements
+This app recycles the code & logic of Zignatures, with some improvements (multiple signatures, edit signatures, etc)
 https://github.com/zendesk/zignatures
 
 Built with Oleg Gulevskyy's incredible Vite Boilerplate
